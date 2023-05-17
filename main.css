@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Junegull';
+    src: "junegull.ttf";
+}
+
+body {
+    font-family: Junegull, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #242424;
+    padding: 15px 32px;
+    transition: 0ms;
+}
+
+#Send {
+    font-family: Junegull;
+    background-color: #ff3c4d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#Send:active {
+    background-color: #b42e39;
+}
+
+#Hide {
+    font-family: Junegull;
+    background-color: #818181;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#Hide:active {
+    background-color: #3b3b3b;
+}
+
+input {
+    font-family: Junegull;
+    width: 280px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ff3c4d;
+    border-radius: 12px;
+    font-size: 12px;
+
+}
+
+.hide {
+    visibility: visible;
+}
+
+#SenderMessage {
+    font-size: 30px;
+    color: #242424;
+}
+
+#timeout {
+    font-size: 20px;
+    color: #b1b1b1;
+}

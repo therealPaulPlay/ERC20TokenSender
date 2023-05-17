@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "alchemy-sdk": "^2.8.3",
+    "ethers": "^6.3.0",
+    "html-webpack-plugin": "^5.5.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "name": "tokensender",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "PaulPlay",
+  "license": "ISC",
+  "description": "Token sender dApp using ethers.js and the Alchemy SDK"
+}
