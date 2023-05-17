@@ -109,8 +109,8 @@ document.getElementById("Send").addEventListener("click", main);
 	if (event.code == "KeyA") {
 		console.log ("Key A pressed");
     main();
-	}*/
-});
+	}
+}); */
 
 //send animation
 function sendAnimationStart () {
