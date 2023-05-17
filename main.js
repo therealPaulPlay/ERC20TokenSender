@@ -103,11 +103,13 @@ document.getElementById("Hide").addEventListener("click", hide);
 
 document.getElementById("Send").addEventListener("click", main);
 
-document.body.addEventListener ("keyup", (event) => {
+//if you want to trigger the transaction by a button press, you can do so here.
+
+/*document.body.addEventListener ("keyup", (event) => {
 	if (event.code == "KeyA") {
 		console.log ("Key A pressed");
     main();
-	}
+	}*/
 });
 
 //send animation
